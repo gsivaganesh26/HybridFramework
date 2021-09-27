@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.urbanLadder.utilities.listeners"/>
+    <listener class-name="com.urbanLadder.utilities.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="validatingHomePage(failed)">
+    <classes>
+      <class name="com.urbanLadder.testcases.TestRunner">
+        <methods>
+          <include name="StudyList"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.urbanLadder.testcases.TestRunner -->
+    </classes>
+  </test> <!-- validatingHomePage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

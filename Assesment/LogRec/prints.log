@@ -1,0 +1,4 @@
+10:45:34.245 [main] INFO  com.urbanLadder.reuseable.Reuseable - Driver is initialized
+10:45:37.107 [main] INFO  com.urbanLadder.reuseable.Reuseable - Navigated to the homepage
+10:45:50.621 [main] INFO  com.urbanLadder.reuseable.Reuseable - Printing the count
+10:46:20.421 [main] INFO  com.urbanLadder.reuseable.Reuseable - Logged in
